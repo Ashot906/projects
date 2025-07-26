@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3b73ecf0,  #d63232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px 0;
+  }
+
+  .card {
+    text-decoration: none;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .card h2 {
+    margin: 0 0 10px;
+    font-size: 2rem;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+
+  #todo {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+  }
+
+  #calculator {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+  }
+
+  #tic-tac-toe {
+    background: linear-gradient(to right, #747ccb, #ce3d3d);
+  }
